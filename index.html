@@ -4,6 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uzum sayti shabloni</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
   </head>
-  <body></body>
+  <body class="dark:bg-slate-900">
+    <!-- Header starts -->
+    <header>
+      <!-- Header top -->
+      <!-- Wrapper div -->
+      <div
+        class="container text-sm mx-auto p-1 bg-slate-100 dark:bg-slate-400 hidden min-[960px]:block"
+      >
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-location-dot"></i>
+            <a href="#" class="underline">Toshkent</a>
+          </div>
+
+          <div class="flex gap-6">
+            <ol class="flex items-center gap-6">
+              <li>
+                <a
+                  href="#"
+                  class="text-violet-600 hover:text-violet-800 transition-colors"
+                  >Sotuvchi bo'lish</a
+                >
+              </li>
+              <li>
+                <span class="text-gray-400">&vert;</span>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-violet-600 hover:text-violet-800 transition-colors"
+                  >Topshirish punkti ochish</a
+                >
+              </li>
+            </ol>
+
+            <ul class="flex items-center gap-6">
+              <li>
+                <a class="text-gray-600 hover:text-gray-900" href="#"
+                  >Savol-javob</a
+                >
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-900" href="#"
+                  >Buyurtmalarim</a
+                >
+              </li>
+              <li class="flex gap-2">
+                <img src="./images/uzb.svg" alt="uzb-lang" />
+                <a href="#">O'zbekcha</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Wrapper div -->
+      <!-- Header top -->
+    </header>
+    <!-- Header ends -->
+  </body>
 </html>
