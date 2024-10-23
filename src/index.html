@@ -10,13 +10,12 @@
     />
     <link rel="stylesheet" href="./output.css" />
   </head>
-  <body class="dark:bg-slate-900">
+  <body>
     <!-- Header starts -->
     <header>
       <!-- Header top -->
-      <!-- Wrapper div -->
       <div
-        class="container text-sm mx-auto p-1 bg-slate-100 dark:bg-slate-400 hidden min-[960px]:block"
+        class="container text-sm mx-auto p-1 bg-slate-100 hidden min-[960px]:block"
       >
         <div class="flex justify-between items-center">
           <div class="flex items-center gap-2">
@@ -64,8 +63,60 @@
           </div>
         </div>
       </div>
-      <!-- Wrapper div -->
       <!-- Header top -->
+      <!-- Header middle -->
+      <div class="container text-sm mx-auto p-1">
+        <div class="flex items-center justify-between">
+          <a href="#">
+            <img src="./images/uzum-logo.svg" alt="logos" />
+          </a>
+
+          <div class="flex gap-4 items-center w-1/2">
+            <div
+              class="flex gap-2 items-center bg-violet-100 text-violet-500 py-2 px-4 rounded-md cursor-pointer hover:bg-violet-200 transition-colors min-w-28"
+            >
+              <img src="./images/katalog.svg" alt="katalog" />
+              <span>Katalog</span>
+            </div>
+            <div
+              class="flex h-10 items-center justify-between border-2 w-[90%] rounded-md"
+            >
+              <input
+                class="w-[90%] h-full p-2 outline-none"
+                type="search"
+                placeholder="Mahsulotlar va turkumlar izlash"
+              />
+              <div
+                class="bg-slate-200 p-3 w-[10%] h-full flex items-center justify-center cursor-pointer hover:bg-slate-300 transition-colors"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+          </div>
+
+          <ul class="text-lg flex gap-2.5 items-center">
+            <li
+              class="flex gap-2 items-center hover:bg-slate-200 transition-colors p-2.5 rounded-md cursor-pointer"
+            >
+              <i class="fa-regular fa-user"></i>
+              <span>Kirish</span>
+            </li>
+            <li
+              class="flex gap-2 items-center hover:bg-slate-200 transition-colors p-2.5 rounded-md cursor-pointer"
+            >
+              <i class="fa-regular fa-heart"></i>
+              <span>Saralangan</span>
+            </li>
+            <li
+              class="flex gap-2 items-center hover:bg-slate-200 transition-colors p-2.5 rounded-md cursor-pointer"
+            >
+              <i class="fa-solid fa-bag-shopping"></i>
+              <span>Savat</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Header middle -->
     </header>
     <!-- Header ends -->
   </body>
