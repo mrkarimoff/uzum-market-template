@@ -10,3 +10,9 @@
 * {
   font-family: Inter, sans-serif;
 }
+
+@layer components {
+  .navigation-link {
+    @apply before:content-[''] before:w-0 before:h-0.5 relative before:absolute before:bg-black before:block before:-bottom-2 hover:before:w-full before:transition-all before:duration-500 text-slate-600 hover:text-black transition-colors;
+  }
+}

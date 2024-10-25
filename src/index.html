@@ -64,14 +64,17 @@
         </div>
       </div>
       <!-- Header top -->
+
       <!-- Header middle -->
       <div class="container text-sm mx-auto p-1">
-        <div class="flex items-center justify-between">
-          <a href="#">
+        <div class="flex items-center justify-between flex-wrap lg:flex-nowrap">
+          <a href="#" class="order-1">
             <img src="./images/uzum-logo.svg" alt="logos" />
           </a>
 
-          <div class="flex gap-4 items-center w-1/2">
+          <div
+            class="flex gap-4 order-3 lg:order-2 items-center w-full mx-2 lg:mx-0 lg:w-1/2"
+          >
             <div
               class="flex gap-2 items-center bg-violet-100 text-violet-500 py-2 px-4 rounded-md cursor-pointer hover:bg-violet-200 transition-colors min-w-28"
             >
@@ -79,7 +82,7 @@
               <span>Katalog</span>
             </div>
             <div
-              class="flex h-10 items-center justify-between border-2 w-[90%] rounded-md"
+              class="flex h-10 items-center justify-between border-2 w-full rounded-md"
             >
               <input
                 class="w-[90%] h-full p-2 outline-none"
@@ -94,7 +97,9 @@
             </div>
           </div>
 
-          <ul class="text-lg flex gap-2.5 items-center">
+          <ul
+            class="text-lg hidden order-2 lg:order-3 sm:flex gap-2.5 items-center"
+          >
             <li
               class="flex gap-2 items-center hover:bg-slate-200 transition-colors p-2.5 rounded-md cursor-pointer"
             >
@@ -117,6 +122,36 @@
         </div>
       </div>
       <!-- Header middle -->
+
+      <!-- Header bottom -->
+      <div class="container mx-auto p-1 text-sm hidden xl:block">
+        <ul class="flex items-center justify-between">
+          <li class="flex gap-3 items-center cursor-pointer">
+            <img class="w-6 h-6" src="./images/every1.png" alt="every1" />
+            <a href="#">Har kuni foyda</a>
+          </li>
+          <li class="navigation-link"><a href="#">Elektronika</a></li>
+          <li class="navigation-link"><a href="#">Maishiy texnika</a></li>
+          <li class="navigation-link"><a href="#">Kiyim</a></li>
+          <li class="navigation-link"><a href="#">Poyabzallar</a></li>
+          <li class="navigation-link"><a href="#">Aksessuarlar</a></li>
+          <li class="navigation-link">
+            <a href="#">Go'zallik va Parvarish</a>
+          </li>
+          <li class="navigation-link"><a href="#">Salomatlik</a></li>
+          <li class="navigation-link"><a href="#">Uy-ro'zg'or buyumlari</a></li>
+          <li class="navigation-link">
+            <a href="#">Qurilish va ta'mirlash</a>
+          </li>
+          <li
+            class="flex items-center gap-2 cursor-pointer text-slate-600 hover:text-black transition-colors"
+          >
+            <a href="#">Yana</a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </li>
+        </ul>
+      </div>
+      <!-- Header bottom -->
     </header>
     <!-- Header ends -->
   </body>
