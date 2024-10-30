@@ -154,5 +154,38 @@
       <!-- Header bottom -->
     </header>
     <!-- Header ends -->
+
+    <!-- Hero Section starts -->
+    <section>
+      <div class="container text-sm mx-auto p-1">
+        <div class="md:relative md:h-[414px] group overflow-hidden">
+          <button
+            class="absolute w-10 hidden md:inline-block left-5 top-1/2 -translate-y-1/2 z-20 h-10 rounded-full opacity-30 bg-white hover:opacity-50 transition-colors"
+          >
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button
+            class="absolute w-10 hidden md:inline-block right-5 top-1/2 -translate-y-1/2 z-20 h-10 rounded-full opacity-30 bg-white hover:opacity-50 transition-colors"
+          >
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+
+          <!-- mobile banner -->
+          <img
+            class="inline-block md:hidden"
+            src="./images/carousel.jpg"
+            alt="carousel"
+          />
+
+          <!-- desktop/tablet banner -->
+          <img
+            class="absolute z-10 top-0 h-full w-full hidden transition-transform ease-linear group-hover:scale-105 md:inline-block object-cover"
+            src="./images/banner.png"
+            alt="carousel"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section ends -->
   </body>
 </html>
